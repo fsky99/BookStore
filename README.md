@@ -17,12 +17,12 @@
 ## ![RoadMAp](RoadMap.png)
 
 ### - Pages:
-## ![PAges](HomePAge.png)
-## ![PageOne](P1.png)
-## ![PageTwo](P2.png)
-## ![PageThree](P3.png)
-## ![PageFour](P4.png)
-## ![PageFive](P5.png)
+## ![HomePAge](HomePAge.png)
+## ![P1](P1.png)
+## ![P2](P2.png)
+## ![P3](P3.png)
+## ![P4](P4.png)
+## ![P5](P5.png)
 
 ---
 ### Technologies used
