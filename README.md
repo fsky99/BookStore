@@ -20,13 +20,13 @@
 <table>
   <tr>
     <td><img src="HomePage.png" alt="HomePage" style="width:300px;"></td>
-    <td><img src="P1.png" alt="PageOne" style="width:300px;"></td>
-    <td><img src="P2.png" alt="PageTwo" style="width:300px;"></td>
+    <td><img src="P1.PNG" alt="PageOne" style="width:300px;"></td>
+    <td><img src="P2.PNG" alt="PageTwo" style="width:300px;"></td>
   </tr>
   <tr>
-    <td><img src="P3.png" alt="PageThree" style="width:300px;"></td>
-    <td><img src="P4.png" alt="PageFour" style="width:300px;"></td>
-    <td><img src="P5.png" alt="PageFive" style="width:300px;"></td>
+    <td><img src="P3.PNG" alt="PageThree" style="width:300px;"></td>
+    <td><img src="P4.PNG" alt="PageFour" style="width:300px;"></td>
+    <td><img src="P5.PNG" alt="PageFive" style="width:300px;"></td>
   </tr>
 </table>
 ---
