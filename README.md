@@ -16,14 +16,11 @@
 ### - Early Functionality roadmap:
 ## ![RoadMAp](RoadMap.png)
 
-### - Pages:
-## ![HomePAge](HomePAge.PNG)
-## ![P1](P1.PNG)
-## ![P2](P2.PNG)
-## ![P3](P3.PNG)
-## ![P4](P4.PNG)
-## ![P5](P5.PNG)
-
+### Pages:
+![HomePage](HomePage.PNG)
+| ![PageOne](P1.PNG) | ![PageTwo](P2.PNG) | ![PageThree](P3.PNG) |
+|:---:|:---:|:---:|
+| ![PageFour](P4.PNG) | ![PageFive](P5.PNG) |  
 ---
 ### Technologies used
 
