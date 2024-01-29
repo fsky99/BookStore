@@ -17,7 +17,7 @@
 ## ![RoadMAp](RoadMap.png)
 
 ### Pages:
-![HomePage](HomePage.PNG)
+![HomePage](HomePage.png)
 | ![PageOne](P1.PNG) | ![PageTwo](P2.PNG) | ![PageThree](P3.PNG) |
 |:---:|:---:|:---:|
 | ![PageFour](P4.PNG) | ![PageFive](P5.PNG) |  
