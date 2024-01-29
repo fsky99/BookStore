@@ -17,10 +17,18 @@
 ## ![RoadMAp](RoadMap.png)
 
 ### Pages:
-
-|![HomePage](HomePage.png) | ![PageOne](P1.PNG) | ![PageTwo](P2.PNG)  |
-|:---:|:---:|:---:|
-| ![PageFour](P4.PNG) | ![PageFive](P5.PNG) |  ![PageThree](P3.PNG) |
+<table>
+  <tr>
+    <td><img src="HomePage.png" alt="HomePage" style="width:300px;"></td>
+    <td><img src="P1.png" alt="PageOne" style="width:300px;"></td>
+    <td><img src="P2.png" alt="PageTwo" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td><img src="P3.png" alt="PageThree" style="width:300px;"></td>
+    <td><img src="P4.png" alt="PageFour" style="width:300px;"></td>
+    <td><img src="P5.png" alt="PageFive" style="width:300px;"></td>
+  </tr>
+</table>
 ---
 ### Technologies used
 
