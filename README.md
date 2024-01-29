@@ -30,6 +30,7 @@
   </tr>
 </table>
 ---
+
 ### Technologies used
 
 - [x] VSCode (Editor for Writing the Code)
