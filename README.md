@@ -18,9 +18,11 @@
 
 ### - Pages:
 ## ![PAges](HomePAge.png)
-| ![PageOne](P1.png) | ![PageTwo](P2.png) | ![PageThree](P3.png) |
-|:---:|:---:|:---:|
-| ![PageFour](P4.png) | ![PageFive](P5.png) |
+## ![PageOne](P1.png)
+## ![PageTwo](P2.png)
+## ![PageThree](P3.png)
+## ![PageFour](P4.png)
+## ![PageFive](P5.png)
 
 ---
 ### Technologies used
