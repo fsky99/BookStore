@@ -6,15 +6,14 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
-
+//DataBase Connection
 let dbConn = mysql.createConnection({
     host:"localhost",
     user:"root",
     password: "password",
     database: "bookstore"
 })
-
-
+//GET Requests
 app.get('/', function(req,res){
     res.send("Hello World")
     })
@@ -38,7 +37,7 @@ app.get('/users/:userid',function( req ,res){
 } )
 
 
-
+//POST Requests
 app.post('/addUser', async function(req ,res){
 let userid = req.body.userid
 let username = req.body.username
@@ -57,7 +56,7 @@ await dbConn.query("INSERT INTO users SET ?" , {userid:userid ,username:username
 })
 
 
-
+//PUT Requests
 app.put('/updateUser', function(req ,res){
 let userid = req.body.userid
 let username = req.body.username
@@ -77,6 +76,8 @@ dbConn.query("UPDATE users SET username = ? , password = ?,fname = ? , lname = ?
 
 })
 
+
+//DELETE Requests
 app.delete('/deleteUser/:userid', function(req,res){
     let userid = req.params.userid
     if(!userid){
@@ -89,9 +90,5 @@ app.delete('/deleteUser/:userid', function(req,res){
 
 
 })
-
-
-
-
 
 app.listen(3000)
