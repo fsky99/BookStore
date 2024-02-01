@@ -1,6 +1,6 @@
 let express = require('express')
 let app = express()
-
+const axios = require('axios')
 let mysql = require('mysql')
 const bodyParser = require('body-parser');
 
@@ -18,6 +18,27 @@ app.get('/', function(req,res){
     res.send("Hello World")
     })
     
+
+app.get('/getBooks' , async function(req,res){
+        try {
+          let response = await axios.get('https://openlibrary.org/search.json?q=the+lord+of+the+rings')
+          let booksArr = []
+      
+          response.data.docs.forEach((book) => {
+            let newBook = {
+              title: book.title,
+              pubDate: book.first_publish_year,
+              author: book.author_name
+            }
+            booksArr.push(newBook)
+          })
+      
+          res.json(booksArr)
+      
+        } catch (error) {
+          console.log('An error has occurred!', error)
+        }
+})    
 app.get('/users',function(req,res){
     dbConn.query("SELECT * FROM USERS", function(error, results , fields){
         if(error) throw error

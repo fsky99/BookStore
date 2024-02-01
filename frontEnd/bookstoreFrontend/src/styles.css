@@ -1,0 +1,441 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: black;
+}
+
+
+/* this css is for the linkdin icon */
+.tooltip-container {
+    bottom: 30px;
+    left: 60px;
+    position: fixed;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+      inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+      5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .profile {
+    background: #2a2b2f;
+    border-radius: 10px 15px;
+    padding: 10px;
+    border: 1px solid rgba(11, 63, 95, 1);
+  }
+  
+  .tooltip-container:hover .tooltip {
+    top: -150px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .icon {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+  }
+  .layer {
+    width: 55px;
+    height: 55px;
+    transition: transform 0.3s;
+  }
+  .icon:hover .layer {
+    transform: rotate(-35deg) skew(20deg);
+  }
+  .layer span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .layer span,
+  .text {
+    color: #1da1f2;
+    border-color: #1da1f2;
+  }
+  
+  .icon:hover.layer span {
+    box-shadow: -1px 1px 3px #1da1f2;
+  }
+  .icon .text {
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    opacity: 0;
+    font-weight: 500;
+    transform: translateX(-50%);
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+  }
+  .icon:hover .text {
+    bottom: -35px;
+    opacity: 1;
+  }
+  
+  .icon:hover .layer span:nth-child(1) {
+    opacity: 0.2;
+  }
+  .icon:hover .layer span:nth-child(2) {
+    opacity: 0.4;
+    transform: translate(5px, -5px);
+  }
+  .icon:hover .layer span:nth-child(3) {
+    opacity: 0.6;
+    transform: translate(10px, -10px);
+  }
+  .icon:hover .layer span:nth-child(4) {
+    opacity: 0.8;
+    transform: translate(15px, -15px);
+  }
+  .icon:hover .layer span:nth-child(5) {
+    opacity: 1;
+    transform: translate(20px, -20px);
+  }
+  
+  .layer span.fab {
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    fill: #1da1f2;
+    background: #000;
+  }
+  .user {
+    display: flex;
+    gap: 10px;
+  }
+  .img {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid #1da1f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+  .name {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1da1f2;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: #fff;
+  }
+  .about {
+    color: #ccc;
+    padding-top: 5px;
+  }
+
+  /* this css is for the gitbug icon */
+  .button-icon {
+    bottom: 30px;
+    right: 20px;
+    position: fixed;
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+  }
+  
+  .iconGH {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .iconGH svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .button-icon:hover {
+    border-color: #ff98a2;
+  }
+  
+  .button-icon:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  
+  .top {
+    background: #ff98a2;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  }
+  
+  .front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+  }
+  
+ /* this css is for the account icon */
+    .accountButton {
+        top: 5px;
+        right: 20px;
+        position: fixed;
+        --color: #bd629f;
+        font-family: inherit;
+        display: inline-block;
+        width: 8em;
+        height: 2.6em;
+        line-height: 2.5em;
+        margin: 20px;
+      
+        overflow: hidden;
+        border: 2px solid var(--color);
+        transition: color .5s;
+        z-index: 1;
+        font-size: 17px;
+        border-radius: 6px;
+        font-weight: 500;
+        color: var(--color);
+       }
+       
+       .accountButton:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: var(--color);
+        height: 150px;
+        width: 200px;
+        border-radius: 50%;
+       }
+       
+       .accountButton:hover {
+        color: #fff;
+       }
+       
+       .accountButton:before {
+        top: 100%;
+        left: 100%;
+        transition: all .7s;
+       }
+       
+       .accountButton:hover:before {
+        top: -30px;
+        left: -30px;
+       }
+       
+       .accountButton:active:before {
+        background: #bd629f;
+        transition: background 0s;
+       }
+  
+ /* this css is for the search bar icon */
+
+ .input-container {
+    top: 10%;
+    left: 5%;
+    width: 400px;
+    position: fixed;
+  }
+  
+  .iconSB {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+  }
+  
+  .inputSB {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    transition: .2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .inputSB:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+  }
+  
+  .input-container:hover > .iconSB {
+    animation: anim 1s linear infinite;
+  }
+  
+  @keyframes anim {
+    0%,
+    100% {
+      transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+  
+    50% {
+      transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+  }
+  
+   /* this css is for the search for a book button */
+  .buttonSFB {
+   top: 11%;
+    left: 29%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: fixed;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+  }
+  
+  .buttonSFB::before,
+  .buttonSFB::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+  }
+  
+  .buttonSFB::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .buttonSFB::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .buttonSFB:active,
+  .buttonSFB:focus {
+    outline: none;
+  }
+  
+  .buttonSFB:active::before,
+  .buttonSFB:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .buttonSFB:active::before {
+    top: 3px;
+  }
+  
+  .buttonSFB:active::after {
+    bottom: 3px;
+  }
+  
+  .button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+  }
+  
+  .button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+  }
+  
+  .button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #ff4655;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+  }
+  
+  .button_text {
+    position: relative;
+  }
+  
+  .buttonSFB:hover {
+    color: #0f1923;
+  }
+  
+  .buttonSFB:hover .button_sl {
+    width: calc(100% + 15px);
+  }
+  
+  .buttonSFB:hover .button_lg::after {
+    background-color: #fff;
+  }
+  
+  
+  
