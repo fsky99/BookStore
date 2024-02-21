@@ -39,6 +39,7 @@
 - [x] Express API (API)
 - [x] Insomnia (API Testing)
 - [x] MySQL Workbench (DataBase)
+- [x] Google Oauth (Users accounts)
 - [x] Canva (Early map desgin of the website)
 - [x] Google Fonts (Fonts for the page)
 - [x] Trelllo (Managment for the work)
