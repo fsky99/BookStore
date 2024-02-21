@@ -5,7 +5,7 @@
 ---
 ### **_Description_**
 
-#### This Website will be like an online book store where users can create their own accounts, search for books, rate and add comments about the books they have read , and view other user's rating, wiht the addition of Direct messaging other users.
+#### This Website is an online book store where users can create their own accounts, search for books, rate and add comments about the books they have read , and view other user's rating, wiht the addition of Direct messaging other users.
 ---
 ### Trello Board :
 
@@ -34,7 +34,7 @@
 ### Technologies used
 
 - [x] VSCode (Editor for Writing the Code)
-- [x] Angular (FrontEnd)
+- [x] React (FrontEnd)
 - [x] Node JS (Backend)
 - [x] Express API (API)
 - [x] Insomnia (API Testing)
