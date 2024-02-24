@@ -1,0 +1,16 @@
+Backend:
+
+mkdir backend
+
+npm init
+
+npm install body-parser cors express nodemon axios msnodesqlv8 mysql
+
+touch server.js
+
+Frontend:
+mkdir frontend
+
+npm create vite@latest
+
+npm install
