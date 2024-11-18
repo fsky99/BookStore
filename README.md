@@ -33,7 +33,7 @@
 - [x]OutSystems
 
   
-### Website OverView Video "Demo":
+### Download Website OverView Video "Demo":
 - [Demo](booklycompressed.mp4) .
 ---
 ### What I have learned:
@@ -49,8 +49,8 @@
 
 ```
 ### Future Plans:
-- [] Improve the UI.
-- [] Add more functionalities.
+- [ ] Improve the UI.
+- [ ] Add more functionalities.
 ---
 ### Credits:
 - [Open Library](https://openlibrary.org/dev/docs/api/search)
