@@ -32,21 +32,24 @@
 
 - [x]OutSystems
 
-
 ---
 ### What I have learned:
 
-- [x]
+- [x] How to use multuple API's in OutSystems.
+- [x] How To Use Chat Messages in OutSysteems.
+- [x] How to use diffrent aggregates and logic in OutSystems. 
 ---
 ### What I am most proud of :
 
 ```
-  
+  The API and how I used it, I have tried for 2 days and I had diffrent problems with the image showing for each book or each author so it took sime time to create the logic behind it.
 
 ```
 
 ---
-
+### Credits:
+- [Open Library](https://openlibrary.org/dev/docs/api/search)
+- [OutSystems](https://www.outsystems.com/)
 ---
 ### Linkdin :
 [linkdin](https://www.linkedin.com/in/fatima-fouad-29626312a)
