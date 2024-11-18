@@ -7,10 +7,7 @@
 
 #### This Website is an online book store where users can create their own accounts, search for books, rate and add comments about the books they have read , and view other user's rating, wiht the addition of Direct messaging other users.
 ---
-### Trello Board :
 
-##### Trello: [Board](https://trello.com/b/fKRzpkHV)
----
 ###  Screenshots:
 ## Early Design:
 ### - Early Functionality roadmap:
@@ -33,16 +30,8 @@
 
 ### Technologies used
 
-- [x] VSCode (Editor for Writing the Code)
-- [x] React (FrontEnd)
-- [x] Node JS (Backend)
-- [x] Express API (API)
-- [x] Insomnia (API Testing)
-- [x] MySQL Workbench (DataBase)
-- [x] Google Oauth (Users accounts)
-- [x] Canva (Early map desgin of the website)
-- [x] Google Fonts (Fonts for the page)
-- [x] Trelllo (Managment for the work)
+- [x]OutSystems
+
 
 ---
 ### What I have learned:
@@ -55,18 +44,8 @@
   
 
 ```
+
 ---
-### Future plans:
-
-- [ ] 
----
-### **_Credits_**
-
-##### Canva: [Canva](https://www.canva.com/)
-
-##### Buttons and style: [buttons](https://uiverse.io/)
-
-##### Google fonts: [fonts](https://fonts.google.com/)
 
 ---
 ### Linkdin :
