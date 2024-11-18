@@ -32,6 +32,9 @@
 
 - [x]OutSystems
 
+  
+### Website OverView Video "Demo":
+- [Demo]() .
 ---
 ### What I have learned:
 
@@ -45,7 +48,9 @@
   The API and how I used it, I have tried for 2 days and I had diffrent problems with the image showing for each book or each author so it took sime time to create the logic behind it.
 
 ```
-
+### Future Plans:
+- [] Improve the UI.
+- [] Add more functionalities.
 ---
 ### Credits:
 - [Open Library](https://openlibrary.org/dev/docs/api/search)
