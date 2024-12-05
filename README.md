@@ -34,7 +34,8 @@
 
   
 ### Download Website OverView Video "Demo":
-- [Demo](booklycompressed.mp4) .
+- [Demo Old Version](booklycompressed.mp4) .
+- [Demo New Version](https://youtu.be/57MWVkNcGeM?feature=shared) .
 ---
 ### What I have learned:
 
